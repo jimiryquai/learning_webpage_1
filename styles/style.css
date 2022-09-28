@@ -4,10 +4,67 @@
     --color-blue: #2f80ed;
     --color-black: #000;
     --font-mono: "Helvetica Neue", Arial, sans-serif;
-
 }
 
-page {
-    min-width: 68.75rem;
-    max-width: 100rem;
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    font-family: var(--font-mono);
+}
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: var(--color-gray);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    padding-left: 64px;
+}
+
+.logo__place_header {
+    width: 154px;
+    height: 31px;
+    position: absolute;
+    top: 30px;
+}
+
+.header__title {
+    line-height: 96px;
+    font-size: 102px;
+    width: 730px;
+    font-weight: bold;
+}
+
+.header__subtitle {
+    width: 388px;
+    position: absolute;
+    bottom: 30px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.header__link{
+    color: var(--color-blue);
+}
+
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+    background-color: var(--color-blue);
+    position: absolute;
+    top: 64px;
+    right: 0;
+    z-index: 0;
+}
+
+.header__main-illustration {
+    width: 765px;
+    height: 608px;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    z-index: 999;
 }
