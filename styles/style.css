@@ -9,8 +9,11 @@
 .page {
     min-width: 1100px;
     max-width: 1600px;
+    /* this ensures that all content is centered on screens wider than 1600px */
+    margin: 0 auto;
     font-family: var(--font-mono);
 }
+/* Header block */
 
 .header {
     height: 100vh;
@@ -44,9 +47,11 @@
     bottom: 30px;
     line-height: 25px;
     font-size: 18px;
+    font-weight: normal;
 }
 
 .header__link{
+    text-decoration: none;
     color: var(--color-blue);
 }
 
