@@ -5,14 +5,13 @@
     --color-blue: #2f80ed;
     --color-black: #000;
     --color-white: #fff;
-    --font-mono: "Helvetica Neue", Arial, sans-serif;
 }
 
 .page {
     min-width: 1100px;
     max-width: 1600px;
     margin: 0 auto;
-    font-family: var(--font-mono);
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 /* Header block */
 .header {
@@ -126,7 +125,7 @@
     padding: 100px 0;
 }
 
-.digits>* {
+.digits > * {
     margin: 0;
 }
 
